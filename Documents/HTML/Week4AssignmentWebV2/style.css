@@ -1,0 +1,64 @@
+body{background-color: aqua;}
+nav{text-decoration: none;
+    background-color: aquamarine;
+    display: flex;
+    border: 15px;
+    justify-content: right;
+    width: auto;
+}
+
+nav a{color: white;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav :hover{background: #2bab0d;
+    border-radius: 1px;
+}
+@media(max-width: 600px){
+    #plp{
+        width: 100%;
+        background-color: lawngreen;
+    }
+    body{
+        background-color: brown;
+    }
+}
+#plp{background-color: blueviolet;}
+#plp, h2{font-family: Arial, Helvetica, sans-serif;}
+img{
+    width: 100%;
+    height: 50%;
+}
+nav :hover .course-menu{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+#modules{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    background-color: darkcyan;
+}
+#modules > ol{font-style: italic;
+    background-color: darkgray;
+    border: 6px dotted blue;
+    row-gap: 5px;
+    font-size: 20px;
+}
+#modules,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table, th, td{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 2px;
+}
